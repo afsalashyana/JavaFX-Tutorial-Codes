@@ -24,3 +24,9 @@ Example of using JavaFX Observable and Bindings
 <p align="left">
   <img height=300 src=https://i.imgur.com/oXI5Qnq.gif>
 </p>
+
+### [5. JavaFX Navigation Drawer](https://youtu.be/tgV8dDP9DtM)
+Example of using JavaFX Observable and Bindings
+<p align="left">
+  <img height=300 src=https://i.imgur.com/hpLZYDT.gif>
+</p>
