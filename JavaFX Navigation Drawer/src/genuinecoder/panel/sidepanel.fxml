@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="400.0" prefWidth="178.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="genuinecoder.panel.SidePanelController">
+   <children>
+      <ImageView fitHeight="127.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../res/back.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="b1" buttonType="RAISED" onAction="#changeColor" prefHeight="100.0" prefWidth="500.0" ripplerFill="#fc0000" style="-fx-background-color: #f1f1f1;" text="Color 1" />
+      <JFXButton fx:id="b2" buttonType="RAISED" layoutX="10.0" layoutY="123.0" onAction="#changeColor" prefHeight="100.0" prefWidth="500.0" ripplerFill="#fc0000" style="-fx-background-color: #f1f1f1;" text="Color 2" />
+      <JFXButton fx:id="b3" buttonType="RAISED" layoutX="10.0" layoutY="197.0" onAction="#changeColor" prefHeight="100.0" prefWidth="500.0" ripplerFill="#fc0000" style="-fx-background-color: #f1f1f1;" text="Color 3" />
+      <JFXButton fx:id="exit" buttonType="RAISED" layoutX="10.0" layoutY="271.0" onAction="#exit" prefHeight="100.0" prefWidth="500.0" ripplerFill="#fc0000" style="-fx-background-color: #f1f1f1;" text="EXIT" />
+   </children>
+</VBox>

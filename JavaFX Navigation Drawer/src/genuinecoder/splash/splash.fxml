@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="508.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="genuinecoder.splash.SplashController">
+   <children>
+      <ImageView fitHeight="370.0" fitWidth="508.0" pickOnBounds="true">
+         <image>
+            <Image url="@../res/back.jpg" />
+         </image>
+      </ImageView>
+      <Pane opacity="0.45" prefHeight="352.0" prefWidth="522.0" style="-fx-background-color: #000000;" />
+      <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="WELCOME">
+         <font>
+            <Font name="Roboto Medium" size="56.0" />
+         </font>
+      </Text>
+   </children>
+</StackPane>
