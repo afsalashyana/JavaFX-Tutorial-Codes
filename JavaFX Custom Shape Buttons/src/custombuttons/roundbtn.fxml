@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="718.0" prefWidth="781.0" stylesheets="@myCss.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="custombuttons.RoundButtonController">
+   <children>
+      <JFXButton fx:id="btn1" layoutX="84.0" layoutY="51.0" prefHeight="262.0" prefWidth="288.0" styleClass="simple-heart" />
+      <JFXButton fx:id="btn2" layoutX="416.0" layoutY="51.0" prefHeight="262.0" prefWidth="288.0" styleClass="another-simple-heart" />
+      <JFXButton fx:id="btn3" layoutX="84.0" layoutY="376.0" prefHeight="262.0" prefWidth="288.0" styleClass="circle" />
+      <JFXButton fx:id="btn4" layoutX="410.0" layoutY="376.0" prefHeight="278.0" prefWidth="332.0" styleClass="balloon" text="Button" />
+   </children>
+</AnchorPane>

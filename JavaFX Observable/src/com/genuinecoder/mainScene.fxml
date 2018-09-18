@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="418.0" prefWidth="580.0" style="-fx-background-color: #DFDFDF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.genuinecoder.MainSceneController">
+    <children>
+      <Text fx:id="textField" fill="#22c98c" layoutX="232.0" layoutY="241.0" stroke="#ff9696" strokeType="OUTSIDE" text="A" textAlignment="CENTER" wrappingWidth="116.13671875">
+         <font>
+            <Font name="Lato Regular" size="84.0" />
+         </font>
+      </Text>
+      <TextField fx:id="tf1" layoutX="216.0" layoutY="60.0" />
+      <TextField fx:id="tf2" layoutX="216.0" layoutY="327.0" />
+    </children>
+</AnchorPane>
