@@ -1,4 +1,4 @@
-# JavaFX Tutorial Code Collection
+# Genuine Coder Tutorial Code Collection
 This repository contains general program examples that I use for tutorials in [my 'GenuineCoder' YouTube channel](https://www.youtube.com/channel/UCCXbhmjID-T2I0KfuDPbi6A)
 
 ### [JavaFX Scene Transition](https://youtu.be/cqskg3DYH8g)
