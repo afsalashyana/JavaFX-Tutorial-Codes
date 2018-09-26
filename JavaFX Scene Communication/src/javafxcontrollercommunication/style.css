@@ -1,0 +1,7 @@
+*{
+    -fx-base: #424242;
+}
+
+.text-field{
+    -fx-text-fill: yellow;
+}

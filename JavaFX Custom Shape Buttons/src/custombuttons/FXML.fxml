@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Arc?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="custombuttons.FXMLController">
+    <Arc fx:id="arc1" fill="#f5000008" layoutX="200.0" layoutY="200.0" length="80.0" radiusX="78.0" radiusY="101.0" rotate="-16.9" scaleZ="2.0" stroke="#f80808" strokeLineJoin="BEVEL" strokeMiterLimit="1.0" strokeWidth="9.0" translateX="1.0">
+        <rotationAxis>
+            <Point3D x="2.0" y="1.0" z="2.0" />
+        </rotationAxis>
+    </Arc>
+</AnchorPane>
