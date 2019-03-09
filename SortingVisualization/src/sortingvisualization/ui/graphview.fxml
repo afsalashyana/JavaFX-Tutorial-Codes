@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="525.0" prefWidth="762.0" stylesheets="@main.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sortingvisualization.ui.GraphViewController">
+   <children>
+      <BarChart fx:id="barChart" animated="false" horizontalGridLinesVisible="false" layoutX="26.0" legendVisible="false" prefHeight="400.0" prefWidth="600.0" verticalGridLinesVisible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <Label fx:id="lblComparison" alignment="TOP_RIGHT" layoutX="497.0" layoutY="8.0" prefHeight="25.0" prefWidth="237.0" AnchorPane.rightAnchor="25.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDatasetSize" alignment="TOP_RIGHT" layoutX="263.0" layoutY="8.0" prefHeight="25.0" prefWidth="237.0" AnchorPane.rightAnchor="262.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

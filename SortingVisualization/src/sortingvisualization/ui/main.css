@@ -1,0 +1,5 @@
+*{
+    -fx-base: #212121;
+}
+
+.default-color0.chart-bar { -fx-bar-fill: #FFFF00 }
