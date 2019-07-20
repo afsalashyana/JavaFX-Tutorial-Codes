@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('font4.ttf');
+}
+
+.text-area {
+    -fx-font-family: 'Dancing Script';
+    -fx-font-size: 26pt;
+    -fx-text-fill: #424242;
+}

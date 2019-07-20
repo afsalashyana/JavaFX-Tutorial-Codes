@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="LetterWriter.jnlp">
+  <information>
+    <title>LetterWriter</title>
+    <vendor>Villan</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="LetterWriter.jar" size="100638" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="letterwriter.LetterWriter"  name="LetterWriter" />
+  <update check="always"/>
+</jnlp>
