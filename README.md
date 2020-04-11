@@ -42,3 +42,15 @@ Java swing based basic text editor
 <p align="left">
   <img height=300 src=https://i.imgur.com/qiboR4J.gif>
 </p>
+
+### [Java Sorting Animation](https://youtu.be/Slo18MgCWYY)
+Sorting algorithm execution animation using JavaFX charts
+<p align="left">
+  <img height=300 src=https://i.imgur.com/s8yJdiY.gif>
+</p>
+
+### JavaFX Self Writing Letter
+Realtime letter writing animation using JavaFX
+<p align="left">
+  <img height=300 src=https://i.imgur.com/Rmv16MK.gif>
+</p>
