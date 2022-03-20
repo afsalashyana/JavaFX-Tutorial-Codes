@@ -2,6 +2,8 @@ package com.genuinecoder.javafxtask;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -10,6 +12,8 @@ import javafx.scene.control.ProgressBar;
 import javafx.scene.control.TextField;
 
 public class HelloController implements Initializable {
+
+  private CounterTask counterTask;
 
   @FXML
   public TextField textFieldInput;
@@ -33,7 +37,10 @@ public class HelloController implements Initializable {
     inputString = inputString.replaceAll(",", "");
     long input = Long.parseLong(inputString);
 
-    CounterTask counterTask = new CounterTask(input);
+    if (counterTask != null && counterTask.isRunning()) {
+      counterTask.cancel();
+    }
+    counterTask = new CounterTask(input);
     counterTask.valueProperty().addListener((observable, oldValue, newValue) -> labelDisplay.setText(String.valueOf(newValue)));
     progressBar.progressProperty().bind(counterTask.progressProperty());
 
@@ -42,7 +49,7 @@ public class HelloController implements Initializable {
     th.start();
   }
 
-  private void calculateInGuiThread() {
+  private void calculate() {
     String inputString = textFieldInput.getText();
     inputString = inputString.replaceAll(",", "");
     long input = Long.parseLong(inputString);
