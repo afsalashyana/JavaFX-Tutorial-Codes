@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane fx:id="rootContainer" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.genuinecoder.javafxcircularscenetransition.scene1.Scene1Controller">
+  <VBox fx:id="contentContainer" alignment="CENTER" style="-fx-background-color: #388E3C;">
+    <Label text="Scene - 1" textFill="WHITE">
+      <font>
+        <Font size="50.0" />
+      </font></Label>
+    <Button mnemonicParsing="false" onAction="#loadScene2" prefHeight="64.0" prefWidth="228.0" text="Load Scene 2">
+      <font>
+        <Font size="20.0" />
+      </font>
+      <VBox.margin>
+        <Insets top="50.0" />
+      </VBox.margin>
+    </Button>
+  </VBox>
+</StackPane>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" minHeight="500.0" minWidth="500.0" spacing="20.0" style="-fx-background-color: #1976D2;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.genuinecoder.javafxcircularscenetransition.scene2.Scene2Controller">
+  <Label text="Scene - 2" textFill="WHITE">
+      <font>
+         <Font name="System Bold" size="50.0" />
+      </font>
+  </Label>
+</VBox>
