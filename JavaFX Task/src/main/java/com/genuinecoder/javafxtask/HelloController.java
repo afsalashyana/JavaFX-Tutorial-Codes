@@ -25,10 +25,24 @@ public class HelloController implements Initializable {
 
   @FXML
   public void handleButtonStartAction(ActionEvent actionEvent) {
-    calculate();
+    invokeCounterTask();
   }
 
-  private void calculate() {
+  private void invokeCounterTask() {
+    String inputString = textFieldInput.getText();
+    inputString = inputString.replaceAll(",", "");
+    long input = Long.parseLong(inputString);
+
+    CounterTask counterTask = new CounterTask(input);
+    counterTask.valueProperty().addListener((observable, oldValue, newValue) -> labelDisplay.setText(String.valueOf(newValue)));
+    progressBar.progressProperty().bind(counterTask.progressProperty());
+
+    Thread th = new Thread(counterTask);
+    th.setDaemon(true);
+    th.start();
+  }
+
+  private void calculateInGuiThread() {
     String inputString = textFieldInput.getText();
     inputString = inputString.replaceAll(",", "");
     long input = Long.parseLong(inputString);
