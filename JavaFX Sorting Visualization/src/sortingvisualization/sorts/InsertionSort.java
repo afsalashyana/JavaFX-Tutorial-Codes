@@ -1,5 +1,7 @@
 package sortingvisualization.sorts;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javafx.scene.chart.XYChart;
 import sortingvisualization.common.SortTask;
 import sortingvisualization.common.SwapItem;
@@ -30,6 +32,11 @@ public class InsertionSort extends SortTask {
                 updateComparisonMessage();
                 waitOnFlag();
                 j = j - 1;
+                            try {
+                Thread.sleep(300);
+            } catch (InterruptedException ex) {
+                Logger.getLogger(InsertionSort.class.getName()).log(Level.SEVERE, null, ex);
+            }
             }
             SwapItem swapItem = new SwapItem(null, j + 1);
             swapItem.setSecondIndex(1);

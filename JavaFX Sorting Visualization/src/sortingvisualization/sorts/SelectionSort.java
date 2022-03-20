@@ -28,7 +28,7 @@ public class SelectionSort extends SortTask {
                 updateComparisonMessage();
             }
             try {
-                Thread.sleep(50);
+                Thread.sleep(30);
             } catch (InterruptedException ex) {
                 ex.printStackTrace();
             }

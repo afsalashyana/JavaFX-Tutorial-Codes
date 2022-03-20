@@ -36,6 +36,9 @@ public class SortingVisualization extends Application {
                 primaryStage.setFullScreen(newValue);
             }
         });
+        primaryStage.setOnCloseRequest((event) -> {
+            System.exit(0);
+        });
     }
 
     /**

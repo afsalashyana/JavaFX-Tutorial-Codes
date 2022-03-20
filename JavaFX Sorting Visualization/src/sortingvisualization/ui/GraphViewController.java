@@ -15,6 +15,7 @@ import javafx.scene.control.Label;
 import sortingvisualization.common.SortTask;
 import sortingvisualization.common.SwapItem;
 import sortingvisualization.sorts.InsertionSort;
+import sortingvisualization.sorts.SelectionSort;
 
 public class GraphViewController implements Initializable {
 
@@ -57,7 +58,7 @@ public class GraphViewController implements Initializable {
     private void startSort() {
         lblDatasetSize.setText("Array size: " + ENTRY_LIMIT);
 
-        SortTask sortTask = new InsertionSort(chartData);
+        SortTask sortTask = new SelectionSort(chartData);
         Thread th = new Thread(sortTask);
         th.setDaemon(true);
         th.start();

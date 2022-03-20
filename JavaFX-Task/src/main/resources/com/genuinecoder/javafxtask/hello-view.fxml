@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" prefWidth="440.0" spacing="20.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.genuinecoder.javafxtask.HelloController">
+  <children>
+    <VBox alignment="TOP_CENTER">
+      <children>
+        <TextField fx:id="textFieldInput" alignment="CENTER" minHeight="60.0" promptText="Enter a number">
+          <font>
+            <Font size="20.0" />
+          </font>
+        </TextField>
+        <Label fx:id="labelDisplay" text="0" textFill="#3128d3">
+          <font>
+            <Font name="System Bold" size="30.0" />
+          </font>
+        </Label>
+        <Button minWidth="200.0" mnemonicParsing="false" onAction="#handleButtonStartAction" text="Start Counter">
+          <font>
+            <Font size="20.0" />
+          </font>
+          <VBox.margin>
+            <Insets top="20.0" />
+          </VBox.margin>
+        </Button>
+      </children>
+      <VBox.margin>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+      </VBox.margin>
+    </VBox>
+  </children>
+</VBox>
