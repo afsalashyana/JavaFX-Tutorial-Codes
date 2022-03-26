@@ -19,6 +19,12 @@ Creating dynamic icons in Java Swing with Ikonli library.
   <img height=300 src=https://i.imgur.com/dbwteVM.png>
 </p>
 
+### [JavaFX Circular Scene Transition](https://youtu.be/cIrCNl02lDc)
+Tutorial about JavaFX scene transition with circular-reveal effect.
+<p align="left">
+  <img height=450 src=.gif/JavaFXCircularReveal.gif>
+</p>
+
 ### [JavaFX Custom Shape Buttons](https://youtu.be/QsQQ5D4TARw)
 Creating JavaFX components with custom shapes. 
 <p align="left">
@@ -53,4 +59,10 @@ Sorting algorithm execution animation using JavaFX charts
 Realtime letter writing animation using JavaFX
 <p align="left">
   <img height=300 src=https://i.imgur.com/Rmv16MK.gif>
+</p>
+
+### [JavaFX Background Task](https://youtu.be/pdRX6CLP0tM)
+Tutorial about JavaFX background tasks to asynchronously execute business logic in the background thread.
+<p align="left">
+  <img height=200 src=.gif/JavaFXBackgroundTask.gif>
 </p>
