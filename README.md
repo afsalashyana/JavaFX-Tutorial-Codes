@@ -70,6 +70,7 @@ Tutorial about JavaFX background tasks to asynchronously execute business logic 
 </p>
 
 ## [JavaFX Blog Posts](https://genuinecoder.com/category/javafx/)
+ * [JavaFX ObservableList Tutorial](https://genuinecoder.com/javafx-observable-list-tutorial/)
  * [JavaFX CheckComboBox Tutorial](https://genuinecoder.com/javafx-checkcombobox-with-example/)
  * [JavaFX Custom Shaped Buttons](https://genuinecoder.com/javafx-buttons-with-custom-shape/)
  * [JavaFX DatePicker Tutorial](https://genuinecoder.com/javafx-datepicker-tutorial-with-date-formatting-and-css-styling/)
