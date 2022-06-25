@@ -70,6 +70,7 @@ Tutorial about JavaFX background tasks to asynchronously execute business logic 
 </p>
 
 ## [JavaFX Blog Posts](https://genuinecoder.com/category/javafx/)
+ * [JavaFX Image Button Tutorial](https://genuinecoder.com/javafx-image-button-tutorial/)
  * [JavaFX ObservableList Tutorial](https://genuinecoder.com/javafx-observable-list-tutorial/)
  * [JavaFX CheckComboBox Tutorial](https://genuinecoder.com/javafx-checkcombobox-with-example/)
  * [JavaFX Custom Shaped Buttons](https://genuinecoder.com/javafx-buttons-with-custom-shape/)
@@ -88,6 +89,9 @@ Tutorial about JavaFX background tasks to asynchronously execute business logic 
  * [Library Management System Development Tutorial using JavaFX](https://genuinecoder.com/javafx-complete-project-tutorial-library-management-system-html/)
 
 ## [Java Blog Posts](https://genuinecoder.com/category/java/)
+ * [Create Animated GIF from still images in Java](https://genuinecoder.com/how-to-create-gif-from-multiple-images-in-java/)
+ * [Create Excel Spreadsheet in Java](https://genuinecoder.com/how-to-create-excel-xlsx-spreadsheet-files-in-java/)
+ * [Java with WebP images](https://genuinecoder.com/java-webp-image-read-save-tutorial/)
  * [Open Native File Explorer with Java](https://genuinecoder.com/how-to-open-file-explorer-in-java/)
  * [Java/JavaFX TrayIcon Tutorial](https://genuinecoder.com/java-trayicon-tutorial-with-popupmenu-and-images/)
  * [Downloading a file from Spring Boot Controller](https://genuinecoder.com/downloading-a-file-from-spring-controller-with-spring-boot/)
